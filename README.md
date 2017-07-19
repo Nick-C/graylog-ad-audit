@@ -15,6 +15,7 @@ Disclaimer: It's only configured to search for specific event ids, so there may 
 
 - Graylog server
  - Must be configured to collect logs from all Domain Controllers
+ - Must be using WinLogBeat (included in Graylog Collector Sidecar: https://github.com/Graylog2/collector-sidecar)
 - Graylog user 
  - User must have access to a stream that contains Domain Controller security events
  - User's timezone should be set to your local time
